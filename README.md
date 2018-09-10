@@ -2,7 +2,10 @@
 Simple script for one click deploying Solidity contracts to either local or remote blockchains
 
 This script compiles a solidity contract and deploys it to a specified provider using a specific account
+
 Usage: python deploycontract.py -c <contract.sol> [-p <provider:port>][-a <account>]
+
+Outputs `address` of deployed contract.
 
 Required libraries: py-solc, web3
 
